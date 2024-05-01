@@ -5,6 +5,7 @@ import pandas as pd
 import plotly.express as px
 st.markdown("<link rel='stylesheet' type='text/css' href='styles.css'>", unsafe_allow_html=True)
 merged_df = pd.read_csv("merged_lebron_james_stats1.csv")
+st.set_option('deprecation.showPyplotGlobalUse', False)
 
 def main():
     st.title("Final Project for DSCI510 : LeBron James' Basketball Career Analysis")
