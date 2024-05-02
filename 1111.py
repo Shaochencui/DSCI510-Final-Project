@@ -122,7 +122,7 @@ def home_page():
 
 def lebron_career_analysis():
     st.title("LeBron James' Basketball Career Analysis")
-    st.write("Tips: Please do not select any selection end with ID For example:PLAYER_ID and TEAM_ABBREVIATION")
+    st.write("Tips: Please do not select any selection end with ID, For example PLAYER_ID and TEAM_ABBREVIATION")
     st.write("I will start with an heatmap to let you have a overall look on the lebron career's statistic and how they related to each other")
     st.write("This app allows you to analyze the relationship between any two metrics of LeBron James' basketball career.")
     st.write("You can select any two lebron james' career data to show on the heatmap to represent the correlational relationship ")
