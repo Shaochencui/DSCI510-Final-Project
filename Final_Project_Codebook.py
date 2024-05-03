@@ -224,7 +224,8 @@ def defensive_effort_analysis():
     st.plotly_chart(fig)
 
     st.write("In this graph, we can see how different combinations of blocks (BLK) and steals (STL) influence LeBron James' Win Shares (WS).")
-
+    st.write("In this graph, we can observe how different combinations of blocks (BLK) and steals (STL) contribute to LeBron James' Win Shares (WS), providing insights into his defensive impact on the team's success. A higher number of blocks and steals by LeBron correlates with an increase in Win Shares, suggesting that his defensive efforts play a crucial role in the team's overall performance.The data visualized here showcases that as LeBron accumulates more blocks and steals, his Win Shares tend to rise proportionally. This indicates that his defensive actions, such as blocking shots and stealing the ball, directly translate into positive outcomes for the team, as reflected by the Win Shares metric. Essentially, the more active LeBron is in disrupting opponent plays through blocks and steals, the more he contributes to the team's success and overall defensive effectiveness.")
+    st.write("Therefore, this graph highlights the importance of LeBron's defensive efforts in shaping the team's performance and underscores his value beyond scoring points. It emphasizes how his defensive prowess significantly impacts the team's ability to secure victories and achieve success on the court.")
 def lebron_can_pass():
     st.title("LeBron James' Passing Analysis")
     st.write("This analysis explores how LeBron James' passing affects his Win Shares (WS).")
