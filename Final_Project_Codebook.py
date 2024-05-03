@@ -166,7 +166,9 @@ def three_point_analysis():
     plt.title("LeBron James' 3-pointer shooting vs Total Points Each Season")
     st.pyplot()
     st.write("We can see from the plot that the if Lebron James attempted to shoot around 23 percent of three-pointer out of his total shooting, he will score the most points in the season ")
-
+    st.write("From the plot, it becomes evident that when LeBron James attempts to shoot around 23 percent of his total shots from the three-point line, he tends to score the most points in the season. This observation underscores the strategic importance of three-point shooting in maximizing scoring output for LeBron.")
+    st.write("Additionally, it's worth noting that while three-point shooting may not directly correlate with Win Shares (WS), analyzing this aspect of LeBron's game provides valuable insights into his offensive efficiency and adaptability to modern basketball trends. In today's fast-paced NBA, where teams increasingly emphasize three-point shooting as a primary offensive strategy, understanding LeBron's performance from beyond the arc helps contextualize his overall impact on the court.")
+    st.write("By integrating three-pointer analysis alongside traditional metrics like Win Shares, we gain a more comprehensive understanding of LeBron's versatility and effectiveness in today's evolving basketball landscape. This approach allows us to appreciate how LeBron's ability to adapt to contemporary playing styles contributes to his continued success and leadership within the league.")
 def salary_per_analysis():
     st.title("LeBron James' Salary vs Player Efficiency Rating Analysis")
     st.write("This app analyzes the relationship between LeBron James' salary and his Player Efficiency Rating (PER) each season.This could also be influeced by the age and the team he stayed in.")
