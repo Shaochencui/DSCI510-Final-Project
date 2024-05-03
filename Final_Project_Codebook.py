@@ -189,7 +189,11 @@ def salary_per_analysis():
     - Each point on the scatter plot corresponds to a specific season in LeBron James' career.
     - The color of each point indicates the season, providing a visual reference for the data points.
     """)
-    st.write("We can see from the scatter plot that when LeBron James' earning 15000k, He has the highest PER(Player effiency ratings)")
+    
+    st.write("The scatter plot suggests that when LeBron James earns $15,000,000 (or $15 million), he tends to have the highest Player Efficiency Rating (PER). Several factors could contribute to this observation:")
+    st.write("Motivation and Performance Incentives: Higher earnings may serve as a motivating factor for LeBron James to perform at his peak level. Athletes often strive to justify their salaries through exceptional performance on the court.")
+    st.write("Health and Fitness: With higher earnings, LeBron may have access to better training facilities, medical resources, and support staff to maintain optimal health and fitness. Improved physical conditioning can enhance his performance and efficiency on the court.")
+    st.write("Overall, the correlation between LeBron's earnings and his PER suggests a complex interplay of various factors, including motivation, experience, team dynamics, leadership, off-court opportunities, and overall well-being.")
 def defensive_effort_analysis():
     st.title("LeBron James' Defensive Impact Analysis")
     st.write("Explore how blocks (BLK) and steals (STL) influence LeBron James' Win Shares (WS).")
