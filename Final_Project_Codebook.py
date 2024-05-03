@@ -275,7 +275,10 @@ def ast_ws_chart():
     st.pyplot()
 
     st.write(" We can see from the chart that when lebron has around 550 to 600 assists he has the best WS win-share while when his assists rates are around 35 percent to 40 percent He has the highest winshare value. It could mean that when Lebron has middle portion of passing the ball then he will mostly helps his team")
-
+    st.write("The chart illustrates that LeBron James achieves the highest Win Shares (WS) when he records around 550 to 600 assists and maintains an assists rate (AST%) in the range of 35 percent to 40 percent. This suggests that LeBron's effectiveness in facilitating scoring opportunities for his teammates significantly contributes to his overall impact on the team's success.")
+    st.write("When LeBron accumulates a moderate number of assists (550 to 600), it indicates his active involvement in setting up scoring plays for his teammates. This level of distribution suggests a balance between scoring and facilitating, where LeBron optimally utilizes his passing skills to create scoring opportunities while also contributing to team cohesion and offensive fluidity.")
+    st.write("Furthermore, the observed range of assists rates (35 percent to 40 percent) implies that LeBron is not only distributing the ball frequently but also doing so efficiently. A high assists rate within this range suggests that LeBron is making effective decisions with the ball, consistently finding open teammates, and generating high-quality scoring chances.")
+    st.write("Overall, the combination of moderate assist volume and efficient passing reflects LeBron's ability to orchestrate the offense and elevate his team's performance. By striking a balance between scoring and playmaking, LeBron maximizes his impact on the court, leading to higher Win Shares and ultimately contributing to his team's success.")
 def personal_attack():
     st.title("LeBron James' Performance Analysis")
     st.write("Explore how points scored, field goals made, free throws made, and usage rate influence win shares.")
